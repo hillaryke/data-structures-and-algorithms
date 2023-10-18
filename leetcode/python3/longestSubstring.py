@@ -18,3 +18,12 @@ def lengthOfLongestSubstring(s: str) -> int:
 
 if __name__ == "__main__":
     print(lengthOfLongestSubstring("abcabcbb"))
+    print(lengthOfLongestSubstring("bbbbb"))
+    print(lengthOfLongestSubstring("pwwkew"))
+    print(lengthOfLongestSubstring(""))
+    print(lengthOfLongestSubstring(" "))
+    print(lengthOfLongestSubstring("au"))
+    print(lengthOfLongestSubstring("dvdf"))
+    print(lengthOfLongestSubstring("abba"))
+    print(lengthOfLongestSubstring("tmmzuxt"))
+    print(lengthOfLongestSubstring("aab"))
