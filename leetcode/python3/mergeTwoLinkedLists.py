@@ -55,4 +55,12 @@ def printList(head):
             current = current.next
         print()
 
-
+if __name__ == "__main__":
+    # Test case 1
+    list1 = ListNode(1)
+    list1.next = ListNode(5)
+    list1.next.next = ListNode(7)
+    list2 = ListNode(2)
+    list2.next = ListNode(3)
+    list2.next.next = ListNode(4)
+    print(printList(Solution().mergeTwoLists(list1, list2)))
