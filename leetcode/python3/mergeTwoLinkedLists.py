@@ -44,5 +44,15 @@ class ListNode:
         self.next = next
 
 # print the linked list given the head
+def printList(head):
+    if head == None:
+        print("None")
+    else:
+        print(head.val, end="")
+        current = head.next
+        while current != None:
+            print(" -> " + str(current.val), end="")
+            current = current.next
+        print()
 
 
